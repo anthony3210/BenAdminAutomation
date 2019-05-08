@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Client,,This is ths test suite for all of our client test cases.,2019-05-08 13:31:05,2019-05-08 13:31:17,12.164s,PASSED
+,,,,,,
+Test Cases/PersonGroupManagement - Sprints/V1/Client/CreateClient,,"This test case creates a client with the CreateClient POST request, verifies that the client was created with a 201 verification, and also verifies that the legalClientName, clientName, and primaryContactEmail data appears in the response.",2019-05-08 13:31:05,2019-05-08 13:31:17,11.975s,PASSED
+"response = sendRequest(findTestObject(""PersonGroupManagement - Sprints/V1/Client/CreateClient"", [""legalClientName"":legalClientName, ""clientName"":clientName, ""primaryContactEmail"":primaryContactEmail]))",,,2019-05-08 13:31:05,2019-05-08 13:31:17,11.713s,PASSED
+"verifyElementPropertyValue(response, ""legalClientName"", legalClientName)",,,2019-05-08 13:31:17,2019-05-08 13:31:17,0.032s,PASSED
+"verifyElementPropertyValue(response, ""clientName"", clientName)",,,2019-05-08 13:31:17,2019-05-08 13:31:17,0.010s,PASSED
+"verifyElementPropertyValue(response, ""primaryContactEmail"", primaryContactEmail)",,,2019-05-08 13:31:17,2019-05-08 13:31:17,0.009s,PASSED
+"verifyResponseStatusCode(response, 201)",,,2019-05-08 13:31:17,2019-05-08 13:31:17,0.007s,PASSED

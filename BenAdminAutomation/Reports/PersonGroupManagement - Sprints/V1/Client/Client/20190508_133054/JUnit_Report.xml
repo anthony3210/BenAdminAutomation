@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Client" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="Client" tests="1" failures="0" errors="0" time="12" timestamp="2019-05-08 13:31:05" hostname="anthonyanderson - 10.12.0.161" id="Test Suites/PersonGroupManagement - Sprints/V1/Client/Client">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/anthonyanderson/BenAdminAutomation/BenAdminAutomation/Reports/PersonGroupManagement - Sprints/V1/Client/Client/20190508_133054"/>
+         <property name="logFiles" value="/Users/anthonyanderson/BenAdminAutomation/BenAdminAutomation/Reports/PersonGroupManagement - Sprints/V1/Client/Client/20190508_133054/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="anthonyanderson - 10.12.0.161"/>
+         <property name="hostAddress" value="10.12.0.161"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/PersonGroupManagement - Sprints/V1/Client/CreateClient" classname="Test Cases/PersonGroupManagement - Sprints/V1/Client/CreateClient" status="PASSED">
+         <system-out><![CDATA[2019-05-08 13:31:05 - [TEST_CASE][PASSED] - Test Cases/PersonGroupManagement - Sprints/V1/Client/CreateClient: Test Cases/PersonGroupManagement - Sprints/V1/Client/CreateClient
+
+2019-05-08 13:31:05 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("PersonGroupManagement - Sprints/V1/Client/CreateClient", ["legalClientName":legalClientName, "clientName":clientName, "primaryContactEmail":primaryContactEmail])): Send request successfully
+
+2019-05-08 13:31:17 - [MESSAGE][INFO] - HAR: /Users/anthonyanderson/BenAdminAutomation/BenAdminAutomation/Reports/PersonGroupManagement - Sprints/V1/Client/Client/20190508_133054/requests/main/0.har
+
+2019-05-08 13:31:17 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-08 13:31:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "legalClientName", legalClientName): Verify element property value successfully
+
+2019-05-08 13:31:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-08 13:31:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "clientName", clientName): Verify element property value successfully
+
+2019-05-08 13:31:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-08 13:31:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "primaryContactEmail", primaryContactEmail): Verify element property value successfully
+
+2019-05-08 13:31:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-08 13:31:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2019-05-08 13:31:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-08 13:31:05 - [TEST_SUITE][PASSED] - Client: Test Cases/PersonGroupManagement - Sprints/V1/Client/CreateClient]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

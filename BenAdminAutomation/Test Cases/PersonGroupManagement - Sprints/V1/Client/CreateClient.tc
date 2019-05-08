@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case creates a client with the CreateClient POST request, verifies that the client was created with a 201 verification, and also verifies that the legalClientName, clientName, and primaryContactEmail data appears in the response.</description>
+   <name>CreateClient</name>
+   <tag>CreateClient</tag>
+   <comment></comment>
+   <testCaseGuid>5d6f8c8c-a63c-421e-91e0-ca41ae134d9e</testCaseGuid>
+   <variable>
+      <defaultValue>'Janet'</defaultValue>
+      <description></description>
+      <id>2c3a554c-c43c-44b0-ab1b-ceb06400eedb</id>
+      <masked>false</masked>
+      <name>legalClientName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Langford'</defaultValue>
+      <description></description>
+      <id>226179b7-fc34-4304-895d-c7725697f233</id>
+      <masked>false</masked>
+      <name>clientName</name>
+   </variable>
+   <variable>
+      <defaultValue>'jlangfordtest@test.com'</defaultValue>
+      <description></description>
+      <id>1fd85fa7-88fe-4258-8258-f496d4060ee8</id>
+      <masked>false</masked>
+      <name>primaryContactEmail</name>
+   </variable>
+</TestCaseEntity>
